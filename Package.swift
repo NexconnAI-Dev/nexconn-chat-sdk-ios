@@ -11,13 +11,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/rongcloud/RongCloudIM-iOS.git", exact: "5.36.4")
+        .package(url: "https://github.com/rongcloud/RongCloudIM-iOS.git", exact: "5.38.0")
     ],
     targets: [
         .binaryTarget(
             name: "NexconnChatSDK",
-            url: "https://downloads.nexconn.ai/release/chat/ios/26.2.2/NexconnChatSDK_26.2.2.zip",
-            checksum: "f5ea8edd16c82acf30bafe33d90d76b19eb67fcbaf52905fda01133e6bf388eb"
+            url: "https://downloads.nexconn.ai/release/chat/ios/26.2.4/NexconnChatSDK_26.2.4.zip",
+            checksum: "be1b7446640640a6c9b3abffccdeff54b572844762b7a10c192efac56d23c44d"
         ),
         .target(
             name: "NexconnChatSDKWrapper",
