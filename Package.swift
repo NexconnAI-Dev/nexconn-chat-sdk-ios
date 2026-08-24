@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NexconnChatSDK",
-            url: "https://downloads.nexconn.ai/release/chat/ios/26.4.0/NexconnChatSDK_26.4.0.zip",
-            checksum: "89354ac8ea3071961aaee935461033edd6e4e6cc4d966d50723aaf7424412850"
+            url: "https://downloads.nexconn.ai/release/chat/ios/0.100.2/NexconnChatSDK_0.100.2.zip",
+            checksum: "5500257e08e29884fe242379d5daea3fffe9c4b906d29fb4385f6bdc5b5d8cb0"
         ),
         .target(
             name: "NexconnChatSDKWrapper",
